@@ -345,10 +345,10 @@ a:hover, a:focus, a:active {
   line-height: 100px;
 }
 
-.btn-primary:hover, .btn-primary:focus, .btn-primary:active {
+.btn-primary:hover, .btn-primary:active {
     background-color: #ff6347 !important; /*lighter blue*/
-    border-color: #ff6347 !important;
-    color: #1D809F !important;
+    border-color: #4a99b2 !important;
+    color: #343434 !important;
 }
 
 .btn-secondary {
