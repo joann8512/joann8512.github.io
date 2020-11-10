@@ -395,3 +395,10 @@ a:hover, a:focus, a:active {
 .text-secondary {
   color: #ecb807 !important;
 }
+
+.myImage {
+    border-radius: 8px;
+    width: 30%;
+    float: left;
+    margin: 10px;
+}
