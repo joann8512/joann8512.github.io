@@ -8656,18 +8656,18 @@ h1, h2, h3, h4, h5,
   z-index: 0;
   position: relative; }
   .ftco-about .img-about .img {
-	display: flex;
-	width: 80%;
-	max-width: 200px;
+	display: inline-block;
+	width: 100%;
+	max-width: 220px;
 	height: auto;
-	max-height: 220px;
+	max-height: 242px;
 	margin-top: 65px;
 	margin-left: 10px;
 	margin-right: 10px;
-	position: relative;
+	/*position: relative;*/
 	z-index: 1;
 	border-radius: 3%;
-	align-items: center;}
+  text-align: right;}
 
 .ftco-about ul.about-info {
   display: inline-block;
