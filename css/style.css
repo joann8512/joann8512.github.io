@@ -8683,6 +8683,14 @@ h1, h2, h3, h4, h5,
 		font-weight: 600;
 		color: #000000;
 		width: 130px; }
+  .ftco-about ul.about-info p {
+    font-weight: 300;
+    color:#525252
+  }
+  .ftco-about ul.about-info p span {
+    font-weight: 350;
+    color:#7a7a7a
+  }
 
 .ftco-about .counter-wrap .text p {
   display: inline-block;
