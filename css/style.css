@@ -8785,6 +8785,38 @@ h1, h2, h3, h4, h5,
 	font-weight: 300;
 	color: rgba(78, 78, 78, 0.856); }
 
+/* Blog Section */
+.content {
+    max-height: 40px; /* Set the initial height of the content */
+    overflow: hidden;
+    transition: max-height .3s all ease; /* Add a smooth transition effect */
+  }
+
+.read-more-button {
+  -webkit-transition: .3s all ease;
+  -o-transition: .3s all ease;
+  transition: .3s all ease;
+  background: #fff;  /*6782D1, 3e64ff*/
+  border: none;  /*6782D1, 3e64ff*/
+  color: #a56a50 !important; 
+  border-radius: 5px;
+  cursor: pointer;
+  display: block;
+  font-size: 11px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-weight: 400;
+  align-items: center;
+  justify-content: center;
+  margin-top: 10px;
+  margin-left: 20px;
+  margin-bottom: 20px;}  /*ffa8ec, 6782D1, 3e64ff*/
+  .read-more-button:hover {
+    border: 1px solid #dcc2b7 !important;  /*ADD8E6, 3e64ff*/
+    background: #dcc2b7 !important;  /*ADD8E6, 3e64ff*/
+    color: #000000 !important; 
+    }
+
 .ftco-partner {
   padding: 4em 0 !important; }
   .ftco-partner .partner {

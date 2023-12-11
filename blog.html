@@ -67,8 +67,9 @@
 				</div>
 				<div class="col-md-9" id="blog-section">
 					<div id="page-4" class="page four">
-						<div class="resume-wrap d-flex ftco-animate">
-							<div class="text pl-1">
+						<div class="resume-wrap ftco-animate">
+							<!--<div class="text pl-1">-->
+							<div class="content" id="myContent">
 								<h4>Chaconne - Tomaso Antonio Vitali</h4>
 								<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 									The first time I heard this piece, it was played by Sarah Chang and had it on 
@@ -105,6 +106,21 @@
 									straightforward to audiences. So while listening, while listening why not just close your 
 									eyes, maybe the melody could lead you somewhere~</p>
 							</div>
+							<button class="read-more-button" onclick="toggleReadMore()">Read More</button>
+							<script>
+								function toggleReadMore() {
+									var content = document.getElementById("myContent");
+									var button = document.querySelector(".read-more-button");
+									var textStyle = window.getComputedStyle(content);
+									if (textStyle.maxHeight == "40px") {
+        								content.style.maxHeight = "100%";
+        								button.innerHTML = "Read Less";} 
+									else {
+        								content.style.maxHeight = "40px";
+        								button.innerHTML = "Read More";}
+								}
+							</script>
+							<p>(Others are still under construction moving here...)</p>
 						</div>
 						
 					</div>
