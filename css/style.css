@@ -8138,7 +8138,7 @@ a.text-dark:hover, a.text-dark:focus {
 	border-color: #dee2e6; } }
 
 body {
-  font-family: "Poppins", Arial, sans-serif;
+  font-family: "EB Garamond", Arial, sans-serif;
   background: #fff;
   font-size: 16px;
   line-height: 1.8;
@@ -8210,7 +8210,7 @@ h1, h2, h3, h4, h5,
 	padding-left: 20px;
 	padding-right: 20px;
 	color: #000000;
-	font-weight: 400;
+	font-weight: 600; /*Slightly bolder menu bar text*/
 	opacity: 1 !important; }
 	.ftco-navbar-light .navbar-nav > .nav-item > .nav-link span {
 	  position: relative;
@@ -8372,7 +8372,7 @@ h1, h2, h3, h4, h5,
 /* Top Menu "J" Circle */
 .navbar-brand {
   font-weight: 900;
-  font-size: 26px;
+  font-size: 30px;
   position: relative;
   z-index: 0; }
   .navbar-brand:after {
@@ -8661,7 +8661,7 @@ h1, h2, h3, h4, h5,
 	max-width: 220px;
 	height: auto;
 	max-height: 242px;
-	margin-top: 65px;
+	margin-top: 40px; /*65*/
 	margin-left: 10px;
 	margin-right: 10px;
 	/*position: relative;*/
