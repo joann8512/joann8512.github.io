@@ -8597,7 +8597,8 @@ h1, h2, h3, h4, h5,
   font-size: 11px;
   text-transform: uppercase;
   letter-spacing: 2px;
-  font-weight: 400;
+  font-weight: 500;
+  padding: 0px;
   width: 80px;
   height: 30px;
   align-items: center;
@@ -8607,10 +8608,10 @@ h1, h2, h3, h4, h5,
 	outline: none; }
   .btn.btn-primary {
 	background: #a56a50;  /*6782D1, 3e64ff*/
-	border: 1px solid #a56a50 !important;  /*6782D1, 3e64ff*/
+	/*border: 1px solid #a56a50 !important;*/  /*6782D1, 3e64ff*/
 	color: #fff !important; }
 	.btn.btn-primary:hover {
-	  border: 1px solid #dcc2b7 !important;  /*ADD8E6, 3e64ff*/
+	  /*border: 1px solid #dcc2b7 !important;*/  /*ADD8E6, 3e64ff*/
 	  background: #dcc2b7 !important;  /*ADD8E6, 3e64ff*/
 	  color: #000000 !important; }
 	.btn.btn-primary.btn-outline-primary {
